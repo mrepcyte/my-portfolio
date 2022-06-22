@@ -1,9 +1,21 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
+
+const projectsAppear = keyframes`
+   0% {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+`;
 
 export const ProjectSection = styled.section`
     display: flex;
     flex-wrap: wrap;
     margin: 20px 0 30px 80px;
+    animation: ${projectsAppear} 1s ease-out forwards;
 
     @media (max-width: 850px) {
         margin-left: 20px;
