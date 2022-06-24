@@ -6,7 +6,7 @@ export const PROJECTS = [
         description: `I created my newsletter back in 2020. I was not happy with the email
   templates proposed by Mailchimp (especially how they looked on mobile), so I
   set myself a challenge to redesign and implement my own code.`,
-        link: 'https://jelistrop.superhi.com/',
+        link: 'https://github.com/mrepcyte/jelistrop-newsletter',
         imageSource: '../newsletter2.png',
         stack: 'HTML, CSS',
     },
