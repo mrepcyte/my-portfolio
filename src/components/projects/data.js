@@ -38,12 +38,10 @@ export const PROJECTS = [
     {
         id: 4,
         count: 'project 4',
-        title: 'so many things to do',
-        description: `This was a learning project with an aim to create a simple to-do list, where
-      the user is able to customize the page using the color button and also add
-      new items to the pre-populated list.`,
-        link: 'https://github.com/mrepcyte/SoManyThingsToDo',
-        imageSource: '../ToDoList.png',
-        stack: 'ReactJS, styled-components',
+        title: 'books of 2022',
+        description: `An experimental web project, an extension of my books newsletter. The website contains a list of books I'm reading this year and the user can use the custom cursor to color the page and fill in the gaps.`,
+        link: 'https://github.com/mrepcyte/favorite-books',
+        imageSource: '../FavoriteBooks.png',
+        stack: 'HTML, CSS, JavaScript',
     },
 ];
